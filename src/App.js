@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Prop from "./Prop/Prop";
+import ProductList from "./SellGiay/ProductList";
+// import Baitapcar from "./CarBasic/Baitapcar";
+import DataJson from "./Data/DataGiay.json";
+
+import ThuKinh from "./ThuKinh/ThuKinh";
+import Phone from "./Phone/Phone";
+import CarProps from "./CarBasic/CarProps";
+import Ab from "./ThuKinh/Ab";
+// import RenderWithLoop from "./RenderWithLoop/RenderWithLoop";
+
+// import Home from './component/BAITAP_CHIALAYOUT/Home';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Ab />;
 }
 
 export default App;
